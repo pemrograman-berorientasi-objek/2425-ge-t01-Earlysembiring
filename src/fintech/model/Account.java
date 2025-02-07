@@ -11,7 +11,7 @@ public class Account {
     private String akun_id;
     private String akun_nama;
     private double balance;
-    private List<Transaksi> transaksi;
+    private List<Transaksi> transaksi; 
 
     public Account(String akun_id, String akun_nama, double balance) {
         this.akun_id = akun_id;
