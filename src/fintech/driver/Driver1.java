@@ -1,15 +1,31 @@
 package fintech.driver;
 
+import java.util.Scanner;
+
 /**
- * @author NIM Nama
- * @author NIM Nama
+ * @author 12S23018 Early Sembiring
+ * @author 12S23032 Seprian Siagian
  */
 public class Driver1 {
 
     public static void main(String[] _args) {
+        Scanner scanner = new Scanner(System.in);
 
-        // codes
+       
+        String command = scanner.nextLine();
+        String owner = scanner.nextLine();
+        String accountName = scanner.nextLine();
 
+       
+        if ("create-account".equals(command)) {
+          
+            double balance = 0.0;
+
+            System.out.println(akun_nama + "|" + owner + "|" + balance);
+        } else {
+            System.out.println("");
+        }
+
+        scanner.close();
     }
-
 }
